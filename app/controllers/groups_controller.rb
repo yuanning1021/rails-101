@@ -7,7 +7,7 @@ def new
   @group = Group.new
 end
 
-def creat
+def create
   @group = Group.new(group_params)
   @group.save
 
